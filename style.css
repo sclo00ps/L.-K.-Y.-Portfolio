@@ -1,0 +1,180 @@
+/* 1. The padding and border are included in the width and height of all the boxes on the site.
+   2. The browser default padding and margin settings have been reset to zero for the entire html file*/
+   * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* The web page background color is light grayish green*/
+body {
+    background-color:bisque;
+}
+
+/* 1. The header box padding is set to 20 pixels, the font family is defined.
+   2. The heading background and text color are defined*/
+header {
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:coral;
+    color: #5700bb;
+    max-width: inherit;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    float: left;
+   
+}
+
+/*display site heading and nav links on the same line */
+ .nav-header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+/* Defining the site header font size and display header text horizontally */
+ h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+  
+header {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+        
+}
+
+/* unordered list items text is right aligned */
+
+ul {
+    text-align: right;
+    
+}
+/* unordered list items display and margin settings in the site header */
+li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 25px;
+}
+/* text color defined as white and the underline removed from links */
+a {
+    color: #5700bb;
+    text-decoration: none;
+}
+
+/* header text font size is defined */
+p {
+    font-size: 25px;
+}
+
+/* search-engine-optimization formatting of box size and section images is defined */
+
+.hero {
+    height: 800px;
+    max-width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./images/portfolio_image_colors.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* search-engine-optimization formatting image position */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+
+/* defines display of inserted content */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+} 
+
+.about-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    max-width:  100%;
+    height: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #8363a7; 
+    color: #ffffff;
+}
+
+/* Social-media-marketing, search-engine-optimization, online-reputation-management format and position of images */
+.projects {
+    margin-bottom: 20px;
+    padding: 50px;
+    max-width:  100%;
+    height: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #8363a7;
+    color: #ffffff;
+}
+
+.contact-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    max-width:  100%;
+    height: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #8363a7;
+    color: #ffffff;
+}
+
+.resume {
+    margin-bottom: 20px;
+    padding: 50px;
+    max-width:  100%;
+    height: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #8363a7;
+    color: #ffffff;
+}
+.resume img {
+    max-height: 200px;
+}
+
+.about-me img {
+    max-height: 200px;
+}
+
+.projects img {
+    max-height: 200px;
+}
+
+.contact-me img {
+    max-height: 200px;
+}
+
+.contact-me h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.resume h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
