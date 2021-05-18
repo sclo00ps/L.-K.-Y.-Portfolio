@@ -1,6 +1,5 @@
-/* 1. The padding and border are included in the width and height of all the boxes on the site.
-   2. The browser default padding and margin settings have been reset to zero for the entire html file*/
-   * {
+/* reset browser default values */
+ {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -76,7 +75,7 @@ p {
     font-size: 25px;
 }
 
-/* search-engine-optimization formatting of box size and section images is defined */
+/* top photo hero banner formatting of box size and section images is defined */
 
 .hero {
     height: 800px;
@@ -86,6 +85,19 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+.container{
+    width:  100%;
+    height: auto;
+    display: flex;
+/* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+
 
 /* search-engine-optimization formatting image position */
 .float-left {
