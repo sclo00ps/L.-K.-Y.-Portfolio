@@ -1,9 +1,9 @@
 /* reset browser default values */
- {
+ * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
+} 
 
 /* The web page background color is light grayish green*/
 body {
@@ -26,7 +26,9 @@ header {
     left: 0;
     right: 0;
     float: left;
-   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /*display site heading and nav links on the same line */
@@ -40,17 +42,12 @@ header {
  h1 {
     display: inline-block;
     font-size: 48px;
-}
+ }
 
   
-header {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
+
         
-}
+
 
 /* unordered list items text is right aligned */
 
@@ -78,9 +75,8 @@ p {
 /* top photo hero banner formatting of box size and section images is defined */
 
 .hero {
-    height: 800px;
-    max-width: 100%;
-    margin-bottom: 25px;
+    height: 600px;
+    width: 100%;
     background-image: url("./images/portfolio_image_colors.jpg");
     background-size: cover;
     background-position: center;
@@ -90,13 +86,13 @@ p {
     width:  100%;
     height: auto;
     display: flex;
-/* flex-wrap: wrap; */
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center; 
+   
 
 }
-
 
 
 /* search-engine-optimization formatting image position */
