@@ -11,7 +11,7 @@ body {
 }
 
 /* 1. The header box padding is set to 20 pixels, the font family is defined.
-   2. The heading background and text color are defined*/
+   2. The heading background and text color are defined */
 header {
     padding: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -29,28 +29,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 2px solid purple;
 }
-
-/*display site heading and nav links on the same line */
- /* .navigation {
-     display: flex;
-     justify-content: space-between;
-     align-items: center; 
-     align-items: flex-end; */
- }
 
 /* Defining the site header font size and display header text horizontally */
  h1 {
     display: inline-block;
     font-size: 48px;
  }
-
-   
-
-/* unordered list items text is right aligned */
-
+  
+/* sub-headers unordered list items text is right aligned and text bolder */
 ul {
     text-align: right;
+    font-weight: bolder;
     
 }
 /* unordered list items display and margin settings in the site header */
@@ -59,18 +50,18 @@ li {
     list-style-type: none;
     margin-left: 25px;
 }
-/* text color defined as white and the underline removed from links */
+/* text color defined and the underline removed from links */
 a {
     color: #5700bb;
     text-decoration: none;
 }
 
-/* header text font size is defined */
+/* sub-headers text font size is defined */
 p {
-    font-size: 25px;
+    font-size: 18px;
 }
 
-/* top photo hero banner formatting of box size and section images is defined */
+/* top photo hero banner image formatting */
 
 .hero {
     height: 600px;
@@ -78,105 +69,134 @@ p {
     background-image: url("./images/portfolio_image_4.jpg");
     background-size: cover;
     background-position: center;
+   border: 3px solid purple; 
+    margin-bottom: 20px;
 }
+/* flexbox container formatting */
 
-.container{
+.container {
     width:  100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    align-items: center; 
-   
-
+   /* align-items: center; */
 }
 
-/* search-engine-optimization formatting image position */
+/* subheaders image position */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-
 /* defines display of inserted content */
 .content {
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 20px; 
 } 
 
+/* about-me subheader formatting */
 .about-me {
     margin-bottom: 20px;
+    scroll-margin-top: 60px;
     padding: 50px;
     max-width:  100%;
     height: 300px;
+    border: 3px solid purple;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     background-color: #8363a7; 
     color: #ffffff;
 }
 
-/* Social-media-marketing, search-engine-optimization, online-reputation-management format and position of images */
+/* projects subheader formatting */
 .projects {
     margin-bottom: 20px;
+    scroll-margin-top: 60px;
+    padding: 50px;
     padding: 50px;
     max-width:  100%;
     height: 300px;
+    border: 3px solid purple;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     background-color: #8363a7;
     color: #ffffff;
 }
 
+/* contact-me subheader formatting */
 .contact-me {
     margin-bottom: 20px;
+    scroll-margin-top: 60px;
+    padding: 50px;
     padding: 50px;
     max-width:  100%;
     height: 300px;
+    border: 3px solid purple;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
+    font-weight: strong;
     background-color: #8363a7;
     color: #ffffff;
 }
 
+/* resume subheader formatting */
 .resume {
     margin-bottom: 20px;
+    scroll-margin-top: 60px;
+    padding: 50px;
     padding: 50px;
     max-width:  100%;
     height: 300px;
+    border: 3px solid purple;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     background-color: #8363a7;
     color: #ffffff;
 }
-.resume img {
-    max-height: 200px;
-}
 
-.about-me img {
-    max-height: 200px;
-}
+ /* about-me subheader margin and font size */
+ .about-me h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+ }       
+/* projects subheader margin and font size */
+ .projects h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+ }
 
-.projects img {
-    max-height: 200px;
-}
-
-.contact-me img {
-    max-height: 200px;
-}
-
+/* contact-me subheader margin and font size */
 .contact-me h2 {
     margin-bottom: 20px;
     font-size: 24px;
 }
 
+ /* resume subheader margin and font size */
 .resume h2 {
     margin-bottom: 20px;
     font-size: 24px;
 }
 
+ /* about-me subheader image height*/
+.about-me img {
+    max-height: 200px;
+}
+/* resume subheader image height*/
+.projects img {
+    max-height: 200px;
+}
+/* contact-me subheader image height */
+.contact-me img {
+    max-height: 200px;
+}
+/* resume subheader image height */
+.resume img {
+    max-height: 200px; 
+ }
 
+ /* first line of footer text formatting */
 .footer {
     padding: 30px;
     clear: both;
@@ -184,6 +204,7 @@ p {
     text-align: center;
 }
 
+/* second footer line font size defined */
 .footer h2 {
     font-size: 20px;
 }

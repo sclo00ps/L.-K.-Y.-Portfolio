@@ -6,23 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>L.K.Y.</title>
     <link rel="stylesheet" type="text/css" href="./style.css" />
-
 </head>
-<body>
- <!--Headers:
-        1. The site heading defined
-    2. The links are displayed in navigation bar on the same line as site header-->
 
+<body>
+      
     <header>
-      <!--  <section class="navigation"> -->
-               <h1><span>Lougine Scott</span></h1>
+      <!-- 1. The site primary heading defined
+           2. navigation bar links defined in heading-->
+
+        <h1>Lougine Scott</h1>
+
         <nav> 
             <ul>
                 <li>
                     <a href="#about-me">About Me</a>
                 </li>
+
                 <li>
-                    <a href="#projects"">Projects</a>
+                    <a href="#projects">Projects</a>
                 </li>
 
                 <li>
@@ -32,34 +33,32 @@
                 <li>
                     <a href="#resume">Resume</a>
                 </li>
-           
             </ul>
         </nav>
-   <!-- </section> -->
-</header>    
+    </header>    
 
-        <section class="hero"></section>
+ <!--hero banner and flexbox container defined-->
+<section class="hero"></section>
 
-<main class ="container">
-
-    <section class="content">
-    <section class="about-me">
+<!--flexbox container defined-->
+    <main class ="container">
+       <section class="content">
+        <section id="about-me" class="about-me">
         <img src="./images/lougine.jpg" class="float-left" />
         <h2>About Me</h2>
         <p>
             I am so happy in spite of it all
         </p>
-    </section>
-
+        </section>
+     
 <!--projects defined with photos and text -->
-    <section class ="projects">
+    <section id="projects" class ="projects">
         <img src="./images/portfolio_image_colors.jpg" class="float-left" />
         <h2>Projects</h2>
         <p>
             Twenty years of projects......
         </p>
-        
-    </section>
+     </section>
 
 <!--contact me defined with photos and text -->
     <section id="contact-me" class="contact-me">
@@ -68,29 +67,32 @@
         <p>
             Email:  louginescott@gmail.com <br> 
             Linked-in: linked-in/lougine_scott <br>
+            Twitter: lougine_scott <br>
+            Instagram: lougine_scott <br>
         </p>
-            </section>
+    </section>
 
     <!-- resume defined with photos and text -->
-    <section id="resume" class="resume">
+    <section id="resume"class="resume">
         <img src="./images/lougine_scott.jpg" class="float-left" />
         <h2>Resume</h2>
         <p>
             Link to cv in new window
         </p>
     </section>
+
 </section>
 
 </main>
 
 <!--Footer:
 The site footer defined with Site title, heart emoji, copyright and corporation name -->
-<div class="footer">
+<section class="footer">
     <h2>Author: Lougine Scott</h2>
     <p>
         &copy;  2021  L.K.Y. Enterprises, Inc.
     </p>
-</div>
+</section>
 </body>
 
 </html>
