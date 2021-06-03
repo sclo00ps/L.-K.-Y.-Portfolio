@@ -130,6 +130,9 @@ p {
 position: relative;
 display: inline-block;
 flex-direction: row;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold;
+padding: 10px;
 }
 
 .jimi-image {
@@ -196,53 +199,47 @@ margin-right: 25px
     color: #ffffff;
 }
 
- /* about-me subheader margin and font size */
- .about-me h2 {
+/* all subheader margin and font size */
+h2 {
     margin-bottom: 20px;
     font-size: 24px;
- }       
-/* projects subheader margin and font size */
- .projects h2 {
+}
+
+h3 {
     margin-bottom: 20px;
-    font-size: 24px;
+    font-size: 10px;
+}
+  
+/* all subheader image height and border*/
+ img {
+    max-height: 200px;
+    border: 2px solid orangered; 
  }
 
-/* contact-me subheader margin and font size */
-.contact-me h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-}
-
- /* resume subheader margin and font size */
-.resume h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-}
-
- /* about-me subheader image height*/
+ /* about-me subheader image height
 .about-me img {
     max-height: 200px;
     border: 2px solid orangered;
     
 }
-/* resume subheader image height*/
+/* resume subheader image height
 .projects img {
     max-height: 200px;
     border: 2px solid orangered;
     
 }
-/* contact-me subheader image height */
+/* contact-me subheader image height 
 .contact-me img {
     max-height: 200px;
     border: 2px solid orangered;
     
 }
-/* resume subheader image height */
+/* resume subheader image height 
 .resume img {
     max-height: 200px;
     border: 2px solid orangered;
     
- }
+ } */
 
  /* first line of footer text formatting */
 .footer {
