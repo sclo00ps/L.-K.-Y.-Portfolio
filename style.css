@@ -70,7 +70,7 @@ p {
     background-image: url("./images/portfolio_image_4.jpg");
     background-size: cover;
     background-position: center;
-   border: 3px solid purple; 
+    border: 3px solid purple; 
     margin-bottom: 20px;
 }
 /* flexbox container formatting */
@@ -126,50 +126,30 @@ p {
     color: #ffffff;
 }
 
-.jimi-project {
-position: relative;
-display: inline-block;
-flex-direction: row;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-weight: bold;
-padding: 10px;
+.container-2 {/*parent*/
+    height: 300px;
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row; /* direction of boxes */
+    /*align-content: center; */
+    /*flex-wrap: wrap; */
+    gap: 60px; /* display space between boxes */
+    margin-bottom: 20px;
+   /* flex: 0 1 0; */
 }
 
-.jimi-image {
-/* Sets padding on all sides to 20px */
-max-height: 100px;
-border: 2px solid orangered;
-/*float: right;*/
-margin-right: 25px
- 
+.box-1,.box-2,.box-3,.box-4{/*children*/
+    height: 300px;
+    background-color: #8363a7;
+    width: 250px;
+    border: 2px solid purple;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #ffffff;
 }
-
-.jimi-border {
- /* Sets border on all sides */
- border: 3px solid purple;
-}
-
-.jimi-margin {
- /* Sets all sides to 20px */
-  margin: 20px 0px 0px 300px;
-  margin-bottom: 20px;
-}
-/*
- #first-project {
-        position: relative;
-        top: 20px;
-        right: 20px;
-        
-    
-.first-project {
-    
-     display: flex;
-     flex-wrap: wrap;
-     flex-direction: row;
-     justify-content: right;
-     flex-grow: 1 0 0;
-    padding: 20px 40px;
-      } */
 
 /* contact-me subheader formatting */
 .contact-me {
