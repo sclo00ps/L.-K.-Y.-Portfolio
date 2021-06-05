@@ -33,6 +33,41 @@ header {
     border: 2px solid purple;
 }
 
+/*Tablets -  media query code header*/
+@media screen and (max-width: 992px){
+    .container-2 {
+    max-width: 50%;
+   }    
+}
+
+
+/*Tablets -  media query code header**/
+@media screen and (max-width: 992px){
+    .container-2 {
+   flex-direction: column;
+   flex-wrap: wrap;  
+   }     
+}
+
+/*Large smartphones -  media query code here 060421*/
+@media screen and (max-width: 768px){
+    .container {
+    flex-direction: column;
+    flex-wrap: wrap;   
+   }    
+} 
+
+/*Large smartphones -  media query code here 060421*/
+@media screen and (max-width: 576px){
+    nav {
+         float: none;
+         width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+          }
+        }
+    
 /* Defining the site header font size and display header text horizontally */
  h1 {
     display: inline-block;
@@ -99,7 +134,7 @@ p {
 } 
 
 /* about-me subheader formatting */
-.about-me {
+.about-me,.projects,.contact-me,.resume {
     margin-bottom: 20px;
     scroll-margin-top: 60px;
     padding: 50px;
@@ -112,74 +147,40 @@ p {
     color: #ffffff;
 }
 
-/* projects subheader formatting */
-.projects {
-    margin-bottom: 20px;
-    scroll-margin-top: 60px;
-    padding: 50px;
-    max-width:  100%;
-    height: 300px;
-    border: 3px solid purple;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    background-color: #8363a7;
-    color: #ffffff;
-}
-
 .container-2 {/*parent*/
     height: 300px;
-    width: 1150px;
+    width: 1425px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
+    align-content: center;
     flex-direction: row; /* direction of boxes */
-    /*align-content: center; */
-    /*flex-wrap: wrap; */
     gap: 60px; /* display space between boxes */
     margin-bottom: 20px;
-   /* flex: 0 1 0; */
+   flex: 1 0 0;
 }
-
 .box-1,.box-2,.box-3,.box-4{/*children*/
     height: 300px;
     background-color: #8363a7;
-    width: 250px;
+    width: 300px;
     border: 2px solid purple;
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     color: #ffffff;
+   /* align-self: flex-start; */
+
+}
+.box-1{
+background-image: url("./images/fashion_sat2.jpg"); 
+/*flex-grow: 2 1 20em;*/  
 }
 
-/* add media query code here*/
+/*.box-2{
+    background-image: url("./images/fashion_sat2.jpg"); 
+    /*flex-grow: 2;  
+} */
 
-/* contact-me subheader formatting */
-.contact-me {
-    margin-bottom: 20px;
-    scroll-margin-top: 60px;
-    padding: 50px;
-    max-width:  100%;
-    height: 300px;
-    border: 3px solid purple;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: strong;
-    background-color: #8363a7;
-    color: #ffffff;
-}
-
-/* resume subheader formatting */
-.resume {
-    margin-bottom: 20px;
-    scroll-margin-top: 60px;
-    padding: 50px;
-    max-width:  100%;
-    height: 300px;
-    border: 3px solid purple;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    background-color: #8363a7;
-    color: #ffffff;
-}
 
 /* all subheader margin and font size */
 h2 {
@@ -198,30 +199,6 @@ h3 {
     border: 2px solid orangered; 
  }
 
- /* about-me subheader image height
-.about-me img {
-    max-height: 200px;
-    border: 2px solid orangered;
-    
-}
-/* resume subheader image height
-.projects img {
-    max-height: 200px;
-    border: 2px solid orangered;
-    
-}
-/* contact-me subheader image height 
-.contact-me img {
-    max-height: 200px;
-    border: 2px solid orangered;
-    
-}
-/* resume subheader image height 
-.resume img {
-    max-height: 200px;
-    border: 2px solid orangered;
-    
- } */
 
  /* first line of footer text formatting */
 .footer {
