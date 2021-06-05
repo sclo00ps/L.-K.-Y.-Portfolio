@@ -23,13 +23,13 @@ Below is a screenshot of the live application:
 
 ## Credits
 Lougine Scott
-List your collaborators, if any, with links to their GitHub profiles.
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-If you followed tutorials, include links to those here as well.
+https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/
+https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
 
 ## Future Development
 Below are the future areas of functionality to be included in future phases.
-- Addition of a Surprise button on the home page for users to select to get suggested plans
-- 
+- enhance responsive functionality
+- add additional projects
+- add project selection enlargement functionality 
 
 ## Conclusion
